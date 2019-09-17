@@ -6,5 +6,5 @@ provider "huaweicloud" {
   secret_key         = "${var.secret_key}"
   #domain_name        = "${var.domain_name}"
   region             = "${var.region}"
-  auth_url           = "https://iam.myhwclouds.com:443/v3"
+  auth_url           = "${var.auth_url}"
 }
